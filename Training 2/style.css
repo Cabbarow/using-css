@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+body {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* gap: 100px; */
+  /* margin: 480px 293px; */
+}
+
+.arka {
+  width: 421px;
+  height: 613px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #efebfd;
+  border-radius: 31px;
+  /* border: 1px solid blue; */
+}
+
+.cerceve {
+  padding: 72px;
+  min-width: 640px;
+  height: 464px;
+  /* display: flex;
+  justify-content: flex-start; */
+  background: #fff;
+  border: 1px solid #281a51;
+  border-radius: 31px;
+  box-shadow: 0 17px 52px 4px #8675b4;
+}
+
+.ic-kisim {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 25px;
+}
+
+.ust {
+  /* width: 496px; */
+  height: 56px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.arama-cubugu {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid #dbd5ec;
+  padding: 16px;
+  height: 56px;
+  width: 348px;
+  background-image: url(buyutec.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 16px;
+  padding-left: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 4px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.harita {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #281a51;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.alt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box-i {
+  margin-bottom: 4px;
+  margin: 0 5px 4px 5px;
+}
+
+.box-6 {
+  background-color: #ffffff;
+  border: 1px solid #dbd5ec;
+}
+
+#box {
+  width: 112px;
+  height: 108px;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#box:hover {
+  box-shadow: 0 14px 16px 0 rgba(41, 11, 128, 0.1);
+}
